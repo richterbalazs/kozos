@@ -16,3 +16,21 @@ article {
     gap: 10px;
     border: 1px solid black;
 }
+
+header, nav {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "a n"
+}
+
+nav {
+    padding: 1px;
+    grid-area: n;
+}
+
+article {
+    padding: 1px;
+    grid-area: a;
+}
