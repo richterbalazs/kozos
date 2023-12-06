@@ -1,14 +1,30 @@
-
-
 tr:nth-child(odd) td:nth-child(even){
     background-color: gray;
 }
 
-table   {
+table {
     border-collapse: collapse;
     margin: auto;
 }
 
-footer {
+header {
+    grid-area: h;
+    border-bottom: 1px solid black;
     text-align: center;
+}
+
+article {
+    grid-area: a;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav {
+    grid-area: n;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
 }
