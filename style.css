@@ -1,39 +1,4 @@
-main {
-    border: 1px solid black;
-}
 
-header {
-    border: 1px solid black;
-}
-
-article {
-    grid-template-columns: 2fr 1fr;
-    grid-area: b;
-    display: grid;
-    max-width: 100%;
-    margin: auto;
-    padding: 20px;
-    gap: 10px;
-    border: 1px solid black;
-}
-
-header, nav {
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-    "a n"
-}
-
-nav {
-    padding: 1px;
-    grid-area: n;
-}
-
-article {
-    padding: 1px;
-    grid-area: a;
-}
 
 tr:nth-child(odd) td:nth-child(even){
     background-color: gray;
