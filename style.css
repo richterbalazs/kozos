@@ -34,3 +34,16 @@ article {
     padding: 1px;
     grid-area: a;
 }
+
+tr:nth-child(odd) td:nth-child(even){
+    background-color: gray;
+}
+
+table   {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+}
