@@ -19,12 +19,47 @@ article {
     border-radius: 5px;
 }
 
-nav {
-    grid-area: n;
-    border: 1px solid black;
-    border-radius: 5px;
+main {
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "a a n"
+    "a a n"
+    "f f f";
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0; 
+    padding: 5px;
+    margin-right: 5px;
+}
+nav li {
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: pink;
+    color: red;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #928f8f;
+    color: purple;
+  }
+
+
+footer{
+    grid-area: f;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
 }
